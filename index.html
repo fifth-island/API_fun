@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="code.js"></script>
+  <link rel="stylesheet" href="rules.css">
+
+  <title>API Fun</title>
+</head>
+
+<body onload="load_animal_API()">
+  <header>
+    <h1>Zoo's Rescues</h1>
+  </header>
+
+  <section id="main-content">
+    <h2 id="callout">
+      Check out all the animals we rescued from zoos around the globe!
+    </h2>
+  
+    <p id="callout-text">According to the <em>World Animal Protection</em>,
+      animal abuse is widespread in 75% of zoo and aquarium facilities.
+      <br>
+      We want to help all these animals! Every day, we receive more and 
+      more animals in our institution. Take a look on some of the species
+      we are currently helping! :) 
+    </p>
+  
+    <button id="callout-btn" onclick="output_animal()">Click here!</button>
+    <!-- <button onclick="getAnimal()">Click here!</button> -->
+    <br><br>
+    <section id="animal-rescued">
+      <div id="animal"></div>
+      <div id="animal-origin"></div>
+      <div id="animal-image"></div>
+    </section>
+    
+    <div id="greetings">Loading...</div>
+    <br><hr class="division"><br>
+
+    <div class="assignment">
+      <h3 class="h3-titles">Assignment Details</h3><br>
+      <p>
+        <em>API selected: </em> &nbsp;
+        <a href="https://zoo-animal-api.herokuapp.com/">
+          https://zoo-animal-api.herokuapp.com/
+        </a>
+      </p>
+      <br>
+      <p> This API was located in the public library of 
+        APIs on Github provided in the resources for 
+        the assignment.<br><br>
+        <em>Source: </em>&nbsp; <a href="https://github.com/public-apis/public-apis">https://github.com/public-apis/public-apis</a>
+      </p>
+      <br>
+      <p>
+        <em>API's description: </em>&nbsp;
+        This API provides facts and pictures about random 
+        animals. It is a public API where users can request 
+        zoo animal data in JSON format.
+        This API supports two possible endpoints. <br>
+        &nbsp;&nbsp;&nbsp;-> The first returns a random animal and all its information 
+        (name, latin name, animal type, active time, 
+        length and weigth's ranges, lifespan, habitat, 
+        diet, location, ID, and image).<br>
+        &nbsp;&nbsp;&nbsp;-> The second endpoint returns a list of animal structs, 
+        being able to return from 1 to 10 at the same time.
+      </p>
+      <br>
+      <p>
+        <em>API's options used: </em>&nbsp;
+      The request focused just in the first endpoint.
+      Every time the user click on the button, a new random
+      animal is retrieved from the API database and displayed 
+      in the screen. For this assigment, the elements used 
+      were "name", "origin", and "image", which helped to 
+      compose a descriptive introduction to the "rescued animals."
+      </p>
+      <br>
+      <p>
+        <e>API's applicability: </e>&nbsp;
+        This API could be user for didatic purposes.<br>
+        &nbsp;&nbsp;&nbsp;-> It could be used for teaching children
+        about ecology, animal names, and all diversity in the world.
+        &nbsp;&nbsp;&nbsp;-> It could be used as the database for some 
+        virtual game. The possibilities of games to be made with this API
+        are vast, considering that memory games, guess the animal, and several 
+        other games realting to memory and general knowledge could use of this 
+        API.
+      </p>
+
+    </div>
+    <br>
+    <br><hr class="division"><br>
+    <div class="assignment">
+     <h3 class="h3-titles">Question</h3>
+     <p style="text-align:center; font-size: 22px;">
+      What were the most challenging and most satisfying things about doing this assignment?</p>
+     <br>
+     <p>The most challenging part was figuring out how to follow the AJAX/JSON protocols,
+      since the example provided on CANVAS was not working properly. It took me a while to understand 
+      the best approach for that. 
+      <br>
+      I also struggled a little bit for testing. I know Siteground provide the best way of 
+      testing in the server-base side, but I found out a VisualCode extension that allows me to test those
+      server-based features throughout my browser. It is called "Live Server". 
+      <br>
+      The most satisfying part of the assignment was understanding how powerful APIs can be 
+      and knowing htat right now I am able to navigate and manage them (at least superficially) 
+      shows me that I am learning a lot in this course.
+     </p>
+    </div>
+
+    <br>
+  </section>
+
+  
+<br><br>
+</body>
+  
+
+</html>

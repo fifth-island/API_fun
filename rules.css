@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* font-family: 'Permanent Marker', cursive; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+
+/* font-family: 'Bree Serif', serif; */
+
+* {
+  Margin: 0px;
+  /* Padding: 5px; */
+  Box-sizing: border-box;
+  Outline: none;
+ }
+
+ body {
+  background-color: bisque;
+  background-image: url("leopardstamp.png");
+  /* background-repeat: no-repeat; */
+  font-family: 'Bree Serif', serif;
+  font-size: 18px;
+
+
+ }
+
+ header {
+  font-family: 'Permanent Marker', cursive;
+  /* color: white; */
+  font-size: 80px;
+  text-align: center;
+  margin-bottom: 35px;
+ /* margin-top: 5px; */
+ width: 100%;
+ text-shadow:  4px 0 rgb(246, 123, 0);
+ padding-top: 5px;
+  background-color: rgba(237, 223, 171, 0.5);
+
+ }
+
+ h2 { font-family: 'Permanent Marker', cursive; }
+
+ #main-content {
+  width: 50%;
+  border-radius: 8%;
+  margin: auto;
+  background-color: rgb(249, 231, 159);
+  /* background-color: rgba(93, 73, 1, 0.5); 50% transparent */
+ }
+
+ #callout {
+  text-align: center;
+  font-size: 28px;
+  padding: 30px;
+ }
+
+ #callout-text {
+  text-align: center;
+  padding: 30px;
+ }
+
+ #callout-btn {
+  font-family: 'Permanent Marker', cursive;
+  font-size: 35px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  background-color:  rgb(246, 123, 0);
+  /* co .lor: white; */
+  border: none;
+  border-radius: 7%;
+  padding: 15px;
+ }
+
+#animal-rescued {
+  margin: auto;
+  display: block;
+  /* border: solid 6px; */
+  background-color: rgb(251, 245, 203);
+  border-radius: 10%;
+  width: 70%;
+  /* padding: 30px; */
+}
+
+#animal {
+  /* margin: auto; */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
+
+  color:rgb(212, 95, 0);
+  /* display: block; */
+}
+
+#animal-origin {
+  text-align: center;
+  margin: 10px;
+  /* padding: 30px; */
+}
+
+#animal-image {
+  margin: auto;
+  margin-left: 30%;
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  
+}
+
+#animal-image img {
+  border-radius: 8%;
+  border: solid 7px rgb(249, 231, 159);
+}
+
+#greetings {
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+}
+
+.division {
+  width: 50%;
+  margin: auto;
+  height: 7px;
+  border: none;
+  background-color:rgb(212, 95, 0);
+
+}
+
+.assignment {
+  /* margin: 10px; */
+  padding: 35px;
+  background-color: rgb(251, 245, 203);
+  border-radius: 10%;
+  width: 70%;
+  margin: auto;
+
+}
+
+.h3-titles {
+  /* margin: auto; */
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-family: 'Permanent Marker', cursive;
+
+  color:rgb(212, 95, 0);
+  /* display: block; */
+}
